@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Animation Demo</title>
+        <style>
+            .animate{
+                height: 200px;
+                width: 300px;
+                animation: animation 5s;
+                animation-fill-mode: backwards;
+                border: 2px dashed black;
+                border-radius: 2em;
+                background-color:palevioletred;
+  
+  
+            }
+            @keyframes animation {
+                from{top: 0px;background-color: brown;left: 10px;}
+                to{top: 200px;left: 100px;}
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="animate"></div>
+    </body>
+</html>
